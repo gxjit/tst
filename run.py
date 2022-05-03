@@ -1,7 +1,9 @@
 from subprocess import run
 from shutil import which
+from platform import platform
 
 
-if which("choco"):
-    print('yoyo')
-    run('choco install upx')
+print(platform())
+
+# if which("choco"):
+#     print('yoyo')
