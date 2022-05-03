@@ -10,9 +10,9 @@ jobs:
       -
         name: Checkout
         uses: actions/checkout@v3
-      -
-        name: Choco
-        uses: crazy-max/ghaction-chocolatey@v1
+      # -
+      #   name: Choco
+      #   uses: crazy-max/ghaction-chocolatey@v1
       -
         name: rn
         run: python ${{ github.workspace }}/run.py
